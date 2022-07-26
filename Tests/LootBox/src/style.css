@@ -1,0 +1,46 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+.button
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 9;
+}
+
+.button .label
+{
+    position: absolute;
+    left: -40px;
+    width: 80px;
+    height: 40px;
+    border-radius: 20%;
+    background: #00000077;
+    border: 1px solid #ffffff77;
+    color: #ffffff;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 100;
+    font-size: 14px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
